@@ -833,7 +833,16 @@
 
       http://checkstyle.sourceforge.net/config_whitespace.html#SeparatorWrap
     -->
-    <module name="SeparatorWrap"/>
+    <module name="SeparatorWrap">
+      <!-- Require that commas appear at the end of lines (if they appear) -->
+      <property name="tokens" value="COMMA"/>
+      <property name="option" value="eol"/>
+    </module>
+    <module name="SeparatorWrap">
+      <!-- Require that dots appear at the start of lines (if they appear) -->
+      <property name="tokens" value="DOT"/>
+      <property name="option" value="nl"/>
+    </module>
 
     <!--
       Checks for overly complicated boolean expressions.
