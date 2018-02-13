@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><c:changelog xmlns:c="urn:com.io7m.changelog:4.0" project="com.io7m.checkstyle_rules">
+  <c:releases>
+    <c:release date="2018-02-13T14:35:45+00:00" ticket-system="com.github.io7m.checkstyle_rules" version="0.0.1">
+      <c:changes>
+        <c:change date="2018-02-13T14:35:45+00:00" summary="Require commas at EOL, require dots on new lines"/>
+      </c:changes>
+    </c:release>
+  </c:releases>
+  <c:ticket-systems>
+    <c:ticket-system default="true" id="com.github.io7m.checkstyle_rules" url="http://github.com/io7m/checkstyle_rules/issues"/>
+  </c:ticket-systems>
+</c:changelog>
