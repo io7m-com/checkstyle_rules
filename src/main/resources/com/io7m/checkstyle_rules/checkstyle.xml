@@ -999,6 +999,7 @@
   <module name="RegexpHeader">
     <property name="header" value="^/\*\n \* Copyright © \d\d\d\d .*\n"/>
     <property name="charset" value="UTF-8"/>
+    <property name="fileExtensions" value="java"/>
   </module>
 
   <!--
