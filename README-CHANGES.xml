@@ -1,13 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><c:changelog xmlns:c="urn:com.io7m.changelog:4.0" project="com.io7m.checkstyle_rules">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<c:changelog project="com.io7m.checkstyle_rules" xmlns:c="urn:com.io7m.changelog:4.0">
   <c:releases>
     <c:release date="2018-02-13T00:00:00+00:00" ticket-system="com.github.io7m.checkstyle_rules" version="0.0.1">
       <c:changes>
         <c:change date="2018-02-13T00:00:00+00:00" summary="Require commas at EOL, require dots on new lines"/>
       </c:changes>
     </c:release>
-    <c:release date="2018-03-06T10:17:23+00:00" ticket-system="com.github.io7m.checkstyle_rules" version="0.0.2">
+    <c:release date="2018-03-06T00:00:00+00:00" ticket-system="com.github.io7m.checkstyle_rules" version="0.0.2">
       <c:changes>
-        <c:change date="2018-03-06T10:17:23+00:00" summary="Only check headers in Java source files"/>
+        <c:change date="2018-03-06T00:00:00+00:00" summary="Only check headers in Java source files"/>
+      </c:changes>
+    </c:release>
+    <c:release date="2019-06-15T15:34:51+00:00" ticket-system="com.github.io7m.checkstyle_rules" version="0.0.3">
+      <c:changes>
+        <c:change date="2019-06-15T15:34:51+00:00" summary="Allow camelCase in variable names">
+          <c:tickets>
+            <c:ticket id="1"/>
+          </c:tickets>
+        </c:change>
       </c:changes>
     </c:release>
   </c:releases>
