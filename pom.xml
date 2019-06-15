@@ -5,12 +5,12 @@
   <parent>
     <groupId>com.io7m.primogenitor</groupId>
     <artifactId>com.io7m.primogenitor</artifactId>
-    <version>3.0.0-beta0010</version>
+    <version>3.0.0-beta0013</version>
   </parent>
 
   <groupId>com.io7m.checkstyle_rules</groupId>
   <artifactId>com.io7m.checkstyle_rules</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3-SNAPSHOT</version>
 
   <packaging>jar</packaging>
   <name>com.io7m.checkstyle_rules</name>
