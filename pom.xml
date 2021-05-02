@@ -9,12 +9,12 @@
   <parent>
     <groupId>com.io7m.primogenitor</groupId>
     <artifactId>com.io7m.primogenitor.full</artifactId>
-    <version>3.5.0</version>
+    <version>6.3.0</version>
   </parent>
 
   <groupId>com.io7m.checkstyle_rules</groupId>
   <artifactId>com.io7m.checkstyle_rules</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
 
   <packaging>jar</packaging>
   <name>com.io7m.checkstyle_rules</name>
@@ -24,7 +24,7 @@
   <properties>
     <io7m.checkstyle.artifact>com.io7m.checkstyle_rules</io7m.checkstyle.artifact>
     <io7m.checkstyle.path>/com/io7m/checkstyle_rules/checkstyle.xml</io7m.checkstyle.path>
-    <io7m.api.previousVersion>0.0.1</io7m.api.previousVersion>
+    <io7m.api.previousVersion>1.0.0</io7m.api.previousVersion>
     <mdep.analyze.skip>true</mdep.analyze.skip>
   </properties>
 
@@ -72,8 +72,8 @@
   </distributionManagement>
 
   <ciManagement>
-    <system>Travis CI</system>
-    <url>https://travis-ci.org/io7m/checkstyle_rules</url>
+    <system>GitHub Actions</system>
+    <url>https://github.com/checkstyle_rules/actions</url>
   </ciManagement>
 
   <prerequisites>

@@ -468,7 +468,7 @@
       http://checkstyle.sourceforge.net/config_javadoc.html#JavadocMethod
     -->
     <module name="JavadocMethod">
-      <property name="scope" value="public"/>
+      <property name="accessModifiers" value="public,protected"/>
     </module>
 
     <!--
@@ -585,6 +585,29 @@
       http://checkstyle.sourceforge.net/config_annotation.html#MissingDeprecated
     -->
     <module name="MissingDeprecated"/>
+
+    <!--
+      Checks for missing Javadoc comments for a method or constructor.
+
+      https://checkstyle.org/config_javadoc.html#MissingJavadocMethod
+    -->
+    <module name="MissingJavadocMethod">
+      <property name="scope" value="private"/>
+    </module>
+
+    <!--
+      Checks for missing Javadoc comments for a package.
+
+      https://checkstyle.org/config_javadoc.html#MissingJavadocPackage
+    -->
+    <module name="MissingJavadocPackage"/>
+
+    <!--
+      Checks for missing Javadoc comments for a class.
+
+      https://checkstyle.org/config_javadoc.html#MissingJavadocType
+    -->
+    <module name="MissingJavadocType"/>
 
     <!--
       This class is used to verify that the java.lang.Override annotation is
