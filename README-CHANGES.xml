@@ -23,9 +23,14 @@
     <c:release date="2020-04-03T00:00:00+00:00" is-open="false" ticket-system="com.github.io7m.checkstyle_rules" version="1.0.0">
       <c:changes/>
     </c:release>
-    <c:release date="2021-05-02T13:25:27+00:00" is-open="false" ticket-system="com.github.io7m.checkstyle_rules" version="1.1.0">
+    <c:release date="2021-05-02T00:00:00+00:00" is-open="false" ticket-system="com.github.io7m.checkstyle_rules" version="1.1.0">
       <c:changes>
         <c:change date="2021-05-02T00:00:00+00:00" summary="Enable checks for missing JavaDoc"/>
+      </c:changes>
+    </c:release>
+    <c:release date="2021-05-02T14:43:04+00:00" is-open="true" ticket-system="com.github.io7m.checkstyle_rules" version="1.2.0">
+      <c:changes>
+        <c:change date="2021-05-02T14:43:04+00:00" summary="Ensure missing JavaDoc checks apply only to public methods"/>
       </c:changes>
     </c:release>
   </c:releases>
