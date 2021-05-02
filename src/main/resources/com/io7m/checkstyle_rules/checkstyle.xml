@@ -592,7 +592,7 @@
       https://checkstyle.org/config_javadoc.html#MissingJavadocMethod
     -->
     <module name="MissingJavadocMethod">
-      <property name="scope" value="private"/>
+      <property name="scope" value="public"/>
     </module>
 
     <!--
