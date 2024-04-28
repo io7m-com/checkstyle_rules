@@ -35,6 +35,7 @@
     </c:release>
   </c:releases>
   <c:ticket-systems>
-    <c:ticket-system default="true" id="com.github.io7m.checkstyle_rules" url="http://www.github.com/io7m-com/checkstyle_rules/issues"/>
+    <c:ticket-system default="true" id="com.github.io7m.checkstyle_rules"
+                     url="https://www.github.com/io7m-com/checkstyle_rules/issues"/>
   </c:ticket-systems>
 </c:changelog>
