@@ -22,9 +22,11 @@
   <url>https://www.io7m.com/software/checkstyle_rules</url>
 
   <properties>
+    <!-- Configuration. -->
     <io7m.checkstyle.artifact>com.io7m.checkstyle_rules</io7m.checkstyle.artifact>
     <io7m.checkstyle.path>/com/io7m/checkstyle_rules/checkstyle.xml</io7m.checkstyle.path>
     <io7m.api.previousVersion>1.0.0</io7m.api.previousVersion>
+    <io7m.java.targetJavaVersion>11</io7m.java.targetJavaVersion>
     <mdep.analyze.skip>true</mdep.analyze.skip>
   </properties>
 
