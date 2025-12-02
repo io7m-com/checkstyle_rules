@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project
-  xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
@@ -22,6 +20,8 @@
   <url>https://www.io7m.com/software/checkstyle_rules</url>
 
   <properties>
+    <io7m.workID>5dd42edf-57d3-38b6-8374-c8df82a1c53a</io7m.workID>
+
     <!-- Configuration. -->
     <io7m.checkstyle.artifact>com.io7m.checkstyle_rules</io7m.checkstyle.artifact>
     <io7m.checkstyle.path>/com/io7m/checkstyle_rules/checkstyle.xml</io7m.checkstyle.path>
